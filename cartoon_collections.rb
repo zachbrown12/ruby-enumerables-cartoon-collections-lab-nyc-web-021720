@@ -1,6 +1,7 @@
 def roll_call_dwarves(dwarves)
-  newarray = dwarves.sort
-  newarray
+  dwarves.each do |word|
+    puts word
+  
 end
 
 def summon_captain_planet# code an argument here
